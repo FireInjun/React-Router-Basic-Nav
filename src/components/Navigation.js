@@ -1,22 +1,24 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
-const Navigation = () => {
+export const Header = () => {
   return (
     <div>
-      <div className="App">
-        <h1>React Router Mini</h1>
+      <div className="Header">
+        
+        <h1>Lambda Services</h1>
         <div>
           <a href="">Home</a>
         </div>
         <div>
-          <a href="">About</a>
+          <a href="/login"></a>
         </div>
         <div>
-          <a href="">Contact</a>
+          <a href="/cart">Contact</a>
         </div>
       </div>
     </div>
   );
 };
 
-export default Navigation;
+
